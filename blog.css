@@ -82,3 +82,18 @@ nav ul li a{
 nav ul li a:hover{
     color: slateblue;
   }
+
+/*stylisation du body*/
+main
+{
+    font-weight: bold;
+}
+main h1
+{
+    color: #D05270;
+}
+
+main h2, h3
+{
+    color:slateblue;
+}
