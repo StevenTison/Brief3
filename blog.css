@@ -50,4 +50,12 @@ footer ul
     margin-bottom: 0;
 }
 
+/*ici la nav bar*/
 
+nav
+{
+    display: flex;
+    justify-content: space-between;
+    margin:15%;
+    margin-top: 0;
+}
