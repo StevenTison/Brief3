@@ -2,8 +2,6 @@
 body{
     font-family: 'Montserrat', sans-serif;
     width: 100%;
-    max-width: 900px;
-    margin: auto;
 }
 h1{
     font-family: 'Abril Fatface', cursive;
@@ -40,4 +38,7 @@ footer ul
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     list-style-type: none;
+    padding: 0;
 }
+
+
