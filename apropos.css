@@ -1,0 +1,51 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    height: 100%;
+    font-weight: bold;
+}
+.test{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+h1{
+    font-family: 'Abril Fatface', cursive;
+    display: flex;
+    justify-content: center;
+    color: #D05270;
+}
+h2{
+    display: flex;
+    justify-content: center;
+    color: #D05270;
+}
+.premier{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.premierp{
+    display: flex;
+    width: 40%;
+}
+.deuxiemep{
+    display: flex;
+    width: 60%;
+}
+.illustration{
+    width: 230px;
+    height: 200px;
+}
+.logo{
+    width: 200px;
+    height: 200px;
+}
+.deuxieme{
+    display: flex;
+    justify-content: center;
+}
+.troisiemep{
+    display: flex;
+    width: 40%;
+}
