@@ -51,7 +51,6 @@ footer ul
 }
 
 /*ici la nav bar*/
-
 nav
 {
     display: flex;
@@ -83,7 +82,7 @@ nav ul li a:hover{
     color: slateblue;
   }
 
-/*stylisation du body*/
+/*stylisation du main*/
 main
 {
     font-weight: bold;
