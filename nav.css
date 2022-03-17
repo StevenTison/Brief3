@@ -1,0 +1,29 @@
+html{
+  height: 100%;
+}
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height:100%;
+
+}
+
+.na{
+  display: flex;
+  justify-content: space-between;
+  margin:15%;
+  margin-top: 0;
+}
+ul{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+li{
+  list-style-type: none;
+padding: 15px;
+color: rgb(173, 171, 171);
+font-family:Montserrat ;
+}
