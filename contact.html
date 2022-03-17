@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat&display=swap" rel="stylesheet">
+    <title>Contact</title>
+</head>
+
+<body>
+    <nav>
+        <img src="logo.png" alt="logo Squedrong" class="logo">
+        <ul>
+            <li class="blog"><a href="index.html" class="lien">BLOG</a></li>
+            <li><a href="blog.html" class="lien">CV</a></li>
+            <li><a href="apropos.html" class="lien">A PROPOS</a></li>
+            <li><a href="contact.html" class="lien">CONTACT</a></li>
+        </ul>
+    </nav>
+
+    <h1>Nous contacter :</h1>
+
+    <form method="post" action="contact.php">
+
+            <legend>Dites nous en plus sur vous !</legend>
+            <p>
+                <label>Votre nom</label> : <input type="text" name="nom" id="nom" placeholder="Votre nom ici"
+                    pattern="[A-Za-z' -].*" autofocus required>
+            </p>
+            <p>
+                <label>Votre prénom</label> : <input type="text" name="prenom" id="prenom" placeholder="Votre prénom ici"
+                    pattern="[A-Za-z' -].*" required>
+            </p>
+            <p>
+                <label>Votre adresse mail</label> : <input type="email" name="mail" id="mail"
+                    placeholder="votreemailici@gmail.com" required>
+            </p>
+
+            <legend>Qu'est-ce que vous pensez de notre site ?</legend>
+                <p><input type="radio" name="avis" id="avis" required><label for="avis">Très bien</label></p>
+                <p><input type="radio" name="avis" id="avis" required><label for="avis">Bien</label></p>
+                <p><input type="radio" name="avis" id="avis" required><label for="avis">Neutre</label></p>
+                <p><input type="radio" name="avis" id="avis" required><label for="avis">Mauvais</label></p>
+                <p><input type="radio" name="avis" id="avis" required><label for="avis">Très mauvais</label></p>
+                <p class="avistextep"><label for="avistexte">Qu'est-ce que vous aimeriez voir améliorer sur celui-ci ?</label></p>
+                <p><textarea name="avistexte" id="avistexte" rows="10" cols="60">Votre avis ici ...</textarea></p>
+    </form>
+    <p class="mail">Mail : adressebidon@gmail.com</p>
+</body>
+
+</html>

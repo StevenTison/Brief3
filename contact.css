@@ -1,0 +1,52 @@
+html{
+    display: flex;
+    justify-content: center;
+}
+body{
+    margin: 0, auto;
+    max-width: 1000px;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+}
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+li{
+    list-style-type: none;
+    padding-left: 20px;
+}
+.lien{
+    color: rgb(173, 171, 171);
+    text-decoration: none;
+    padding: 14px 25px;
+    text-align: center;
+    display: inline-block;
+}
+a:hover{
+    color: slateblue;
+}
+h1{
+    text-align: center;
+    font-family: 'Abril Fatface', cursive;
+    justify-content: center;
+    color: #D05270;
+}
+legend{
+    
+    color: slateblue;
+}
+.avistextep{
+    color: slateblue;
+}
