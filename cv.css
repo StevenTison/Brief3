@@ -1,7 +1,6 @@
 html{
     display: flex;
     justify-content: center;
-
   }
 
 body{
@@ -10,41 +9,23 @@ body{
     width: 100%;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
-  }
-
-/*la nav*/
-nav{
-    display: flex;
-    justify-content: space-between;
-    width: 1000px;
-  }
-  
-ul{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-  li{
-    list-style-type: none;
-    padding-left: 20px;
-  }
-  .lien{
-    color: rgb(173, 171, 171);
-    text-decoration: none;
-    padding: 14px 25px;
-    text-align: center;
-    display: inline-block;
-  }
-  a:hover{
-    color: slateblue;
-  }
+}
 
 /*le main*/
 main
 {
     display: flex;
     justify-content: center;
+    font-weight: bold;
+    text-align: justify;
+    margin-bottom: 100px;
 }
+
+.photo_accueil
+{
+    width: 1200px;
+}
+
 h1{
     font-family: 'Abril Fatface', cursive;
     color: #D05270;
@@ -58,6 +39,10 @@ h1{
     
 }
 
+.profil_individuel
+{
+    display: flex;
+}
 
 
 /*le footer*/
@@ -161,7 +146,6 @@ font-weight: lighter;
 nav{
     display: flex;
     justify-content: space-between;
-    width: 1000px;
   }
   
 ul{
