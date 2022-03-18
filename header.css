@@ -12,11 +12,13 @@ body{
     flex-direction: column;
     align-content: center;
 }
+
 nav{
     display: flex;
     justify-content: space-between;
     width: 1200px;
 }
+
 ul{
     display: flex;
     align-items: center;
