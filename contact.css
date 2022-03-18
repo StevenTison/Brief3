@@ -58,8 +58,9 @@ footer{
     flex-direction: row;
     padding-bottom: 20px;
 }
-h1:last-of-type{
+.titleentete{
     text-align: left;
+    color: #D05270;
 }
 .textentete{
     text-align: left;
