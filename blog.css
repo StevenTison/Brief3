@@ -6,7 +6,7 @@ html{
 body{
   max-width: 1200px;
   font-family: 'Montserrat', sans-serif;
-  font-weight: bold;
+  font-size: larger;
 }
 h1{
   font-family: 'Abril Fatface', cursive;

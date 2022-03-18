@@ -8,7 +8,7 @@ body{
     max-width: 1200px;
     width: 100%;
     font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
+   font-size: larger;
 }
 
 /*le main*/
@@ -16,7 +16,6 @@ main
 {
     display: flex;
     justify-content: center;
-    font-weight: bold;
     text-align: justify;
     margin-bottom: 100px;
 }
@@ -35,6 +34,11 @@ h1{
 article
 {
     margin-top: 50px;
+}
+
+article p
+{
+    color: dimgray;
 }
 
 h2
@@ -92,8 +96,9 @@ font-weight: lighter;
 
 .button{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   padding-top: 10px;
+
 }
 
 /* Début CSS des bouttons */
