@@ -6,7 +6,7 @@ html{
   }
 
   body{
-    margin: 0, auto;
+    margin: 0;
     max-width: 1200px;
     width: 100%;
     font-family: 'Montserrat', sans-serif;
@@ -37,7 +37,9 @@ footer
 {
 display: flex;
 flex-direction: column;
-text-align: justify;
+text-align: left;
+font-size: 15px;
+font-weight: lighter;
 }
 
 .section_footer h2
@@ -49,7 +51,7 @@ text-align: justify;
 {
   display: flex;
   justify-content: space-between;
-  padding-top: 120px;
+  padding-top: 90px;
   gap: 20px;
 }
 
@@ -151,6 +153,16 @@ main
     margin-bottom: 100px;
 }
 
+.paragraphe
+{
+  margin-bottom: 50px;
+}
+
+.paragraphe h1, h2, h3
+{
+  padding-bottom: 50px;
+}
+
 main img
 {
     height: 850px;
@@ -159,6 +171,7 @@ main img
 main h1
 {
     color: #D05270;
+    margin-top: 60px;
 }
 
 main h2, h3
