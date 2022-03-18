@@ -3,7 +3,7 @@ html{
     justify-content: center;
 }
 body{
-    max-width: 1000px;
+    max-width: 1200px;
     width: 100%;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
@@ -14,7 +14,7 @@ body{
 nav{
     display: flex;
     justify-content: space-between;
-    width: 1000px;
+    width: 1200px;
 }
 ul{
     display: flex;
