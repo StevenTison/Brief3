@@ -78,8 +78,66 @@ p{
 .troisiemep{
     display: flex;
 }
-.reseau{
+.button{
     display: flex;
     justify-content: space-between;
-    padding-top: 20px;
+    padding-top: 10px;
 }
+
+/* Début CSS des bouttons */
+
+.textetwitter{
+    background-color: #47a9e8;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.twitter{
+    width: 30px;
+    height: 30px;
+    padding-right: 30px;
+}
+.textelinkedin{
+    background-color: #1275B1;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.linkedin{
+    width: 30px;
+    height: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+}
+.textemedium{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.medium{
+    width: 30px;
+    height: 30px;
+    padding-right: 30px;
+}
+
+/* Fin CSS des bouttons */
