@@ -1,0 +1,186 @@
+html{
+    display: flex;
+    justify-content: center;
+
+  }
+
+body{
+    margin: 0;
+    max-width: 1200px;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+  }
+
+/*la nav*/
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+  }
+  
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  li{
+    list-style-type: none;
+    padding-left: 20px;
+  }
+  .lien{
+    color: rgb(173, 171, 171);
+    text-decoration: none;
+    padding: 14px 25px;
+    text-align: center;
+    display: inline-block;
+  }
+  a:hover{
+    color: slateblue;
+  }
+
+/*le main*/
+main
+{
+    display: flex;
+    justify-content: center;
+}
+h1{
+    font-family: 'Abril Fatface', cursive;
+    color: #D05270;
+}
+
+.photo_profil
+{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    
+}
+
+
+
+/*le footer*/
+.illustration 
+{
+  width: 400px;
+  height: 400px;
+  padding-left: 175px;
+}
+footer
+{
+  display: flex;
+}
+
+.section_footer
+{
+display: flex;
+flex-direction: column;
+text-align: left;
+font-size: 15px;
+font-weight: lighter;
+}
+
+.section_footer h2
+{
+  color: #D05270;
+}
+
+.section_footer div
+{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 90px;
+  gap: 20px;
+}
+
+.button{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+
+/* Début CSS des bouttons */
+
+.textetwitter{
+  background-color: #47a9e8;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.twitter{
+  width: 30px;
+  height: 30px;
+  padding-right: 30px;
+}
+.textelinkedin{
+  background-color: #1275B1;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.linkedin{
+  width: 30px;
+  height: 30px;
+  padding-right: 30px;
+  padding-bottom: 10px;
+}
+
+.textemedium{
+  background-color: black;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.medium{
+  width: 30px;
+  height: 30px;
+  padding-right: 30px;
+}
+
+/*ici la nav bar*/
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+  }
+  
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  li{
+    list-style-type: none;
+    padding-left: 20px;
+  }
+  .lien{
+    color: rgb(173, 171, 171);
+    text-decoration: none;
+    padding: 14px 25px;
+    text-align: center;
+    display: inline-block;
+  }
+  a:hover{
+    color: slateblue;
+  }
+
