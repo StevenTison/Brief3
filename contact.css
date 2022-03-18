@@ -44,7 +44,7 @@ h1{
 form{
     text-align: center;
 }
-legend{
+h2, h3{
     color: slateblue;
 }
 .avistextep{
@@ -57,6 +57,13 @@ footer{
     display: flex;
     flex-direction: row;
     padding-bottom: 20px;
+}
+.titleentete{
+    text-align: left;
+    color: #D05270;
+}
+.textentete{
+    text-align: left;
 }
 .entete{
     display: flex;
