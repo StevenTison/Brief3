@@ -78,7 +78,7 @@ footer{
 /* Début CSS des bouttons */
 
 .textetwitter{
-    background-color: #47a9e8;
+    background-color: #10A9F4;
     display: flex;
     align-items: center;
     text-decoration: none;
@@ -95,7 +95,7 @@ footer{
     padding-right: 30px;
 }
 .textelinkedin{
-    background-color: #1275B1;
+    background-color: #4876B4;
     display: flex;
     align-items: center;
     text-decoration: none;
@@ -113,7 +113,7 @@ footer{
     padding-bottom: 10px;
 }
 .textemedium{
-    background-color: black;
+    background-color: #323132;
     display: flex;
     align-items: center;
     text-decoration: none;
