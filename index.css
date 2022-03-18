@@ -120,6 +120,7 @@ h2{
 section{
   display: grid;
   padding-top: 75px;
+  padding-bottom: 75px;
   grid-template-columns: 590px 590px;
   grid-gap: 20px;
   grid-template-rows: 350px 200px;
