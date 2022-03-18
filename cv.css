@@ -24,6 +24,7 @@ main
 .photo_accueil
 {
     width: 1200px;
+    margin-bottom: 50px;
 }
 
 h1{
@@ -31,12 +32,22 @@ h1{
     color: #D05270;
 }
 
+article
+{
+    margin-top: 50px;
+}
+
+h2
+{
+    color: slateblue;
+}
+/*profils*/
 .photo_profil
 {
     height: 200px;
     width: 200px;
     border-radius: 50%;
-    
+    margin-right: 50px;
 }
 
 .profil_individuel
