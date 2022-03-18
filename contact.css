@@ -4,19 +4,17 @@ html{
 }
 body{
     margin: 0, auto;
-    max-width: 1000px;
-    width: 100%;
+    max-width: 1200px;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     display: flex;
     flex-direction: column;
     align-content: center;
-    text-align: center;
 }
 nav{
     display: flex;
     justify-content: space-between;
-    width: 1000px;
+    width: 1200px;
 }
 ul{
     display: flex;
@@ -43,10 +41,93 @@ h1{
     justify-content: center;
     color: #D05270;
 }
+form{
+    text-align: center;
+}
 legend{
-    
     color: slateblue;
 }
 .avistextep{
     color: slateblue;
 }
+.mail{
+    text-align: center;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 20px;
+}
+.entete{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+}
+.illustration{
+    padding-left: 175px;
+    height: 350px;
+    width: 350px;
+}
+.button{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 60px;
+}
+
+/* Début CSS des bouttons */
+
+.textetwitter{
+    background-color: #47a9e8;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.twitter{
+    width: 30px;
+    height: 30px;
+    padding-right: 30px;
+}
+.textelinkedin{
+    background-color: #1275B1;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.linkedin{
+    width: 30px;
+    height: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+}
+.textemedium{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.medium{
+    width: 30px;
+    height: 30px;
+    padding-right: 30px;
+}
+
+/* Fin CSS des bouttons */
