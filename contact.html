@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="contact.css">
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="normalise.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat&display=swap" rel="stylesheet">
@@ -28,36 +28,37 @@
 
     <form method="post" action="contact.php">
 
-            <legend>Dites nous en plus sur vous !</legend>
-            <p>
-                <label>Votre nom</label> : <input type="text" name="nom" id="nom" placeholder="Votre nom ici"
-                    pattern="[A-Za-z' -].*" autofocus required>
-            </p>
-            <p>
-                <label>Votre prénom</label> : <input type="text" name="prenom" id="prenom" placeholder="Votre prénom ici"
-                    pattern="[A-Za-z' -].*" required>
-            </p>
-            <p>
-                <label>Votre adresse mail</label> : <input type="email" name="mail" id="mail"
-                    placeholder="Votre email ici" required>
-            </p>
+        <h2>Dites nous en plus sur vous !</h2>
+        <p>
+            <label>Votre nom</label> : <input type="text" name="nom" id="nom" placeholder="Votre nom ici"
+                pattern="[A-Za-z' -].*" autofocus required>
+        </p>
+        <p>
+            <label>Votre prénom</label> : <input type="text" name="prenom" id="prenom" placeholder="Votre prénom ici"
+                pattern="[A-Za-z' -].*" required>
+        </p>
+        <p>
+            <label>Votre adresse mail</label> : <input type="email" name="mail" id="mail" placeholder="Votre email ici"
+                required>
+        </p>
 
-            <legend>Qu'est-ce que vous pensez de notre site ?</legend>
-                <p><input type="radio" name="avis" id="avis" required><label for="avis">Très bien</label></p>
-                <p><input type="radio" name="avis" id="avis" required><label for="avis">Bien</label></p>
-                <p><input type="radio" name="avis" id="avis" required><label for="avis">Neutre</label></p>
-                <p><input type="radio" name="avis" id="avis" required><label for="avis">Mauvais</label></p>
-                <p><input type="radio" name="avis" id="avis" required><label for="avis">Très mauvais</label></p>
-                <p class="avistextep"><label for="avistexte">Qu'est-ce que vous aimeriez voir améliorer sur celui-ci ?</label></p>
-                <p><textarea name="avistexte" id="avistexte" rows="10" cols="60">Votre avis ici ...</textarea></p>
-                <p><input type="submit"></p>
+        <h3>Qu'est-ce que vous pensez de notre site ?</h3>
+        <p><input type="radio" name="avis" id="tresbien" required><label for="tresbien">Très bien</label></p>
+        <p><input type="radio" name="avis" id="bien" required><label for="bien">Bien</label></p>
+        <p><input type="radio" name="avis" id="neutre" required><label for="neutre">Neutre</label></p>
+        <p><input type="radio" name="avis" id="mauvais" required><label for="mauvais">Mauvais</label></p>
+        <p><input type="radio" name="avis" id="tresmauvais" required><label for="tresmauvais">Très mauvais</label></p>
+        <p class="avistextep"><label for="avistexte">Qu'est-ce que vous aimeriez voir améliorer sur celui-ci ?</label>
+        </p>
+        <p><textarea name="avistexte" id="avistexte" rows="10" cols="60">Votre avis ici ...</textarea></p>
+        <p><input type="submit"></p>
     </form>
     <p class="mail">Mail : adressebidon@gmail.com</p>
 
     <footer>
         <div class="entete">
-            <h2>Lorem ipsum</h2>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa, exercitationem saepe ipsa iusto enim a
+            <h1>Lorem ipsum</h1>
+            <p class="textentete">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa, exercitationem saepe ipsa iusto enim a
                 aut
                 sequi
                 assumenda quibusdam voluptas? Voluptatibus quos, eos perferendis eum autem repellat, recusandae
