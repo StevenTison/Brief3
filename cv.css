@@ -1,110 +1,125 @@
 html{
-    display: flex;
-    justify-content: center;
-  }
-
+  display: flex;
+  justify-content: center;
+}
 body{
-    margin: 0;
-    max-width: 1200px;
-    width: 100%;
-    font-family: 'Montserrat', sans-serif;
-   font-size: larger;
+  max-width: 1200px;
+  width: 100%;
+  font-family: 'Montserrat', sans-serif;
+  font-size: larger;
 }
 
-/*le main*/
-main
-{
-    display: flex;
-    justify-content: center;
-    text-align: justify;
-    margin-bottom: 100px;
+/* Nav bar */
+
+nav{
+  display: flex;
+  justify-content: space-between;
+}
+  
+ul{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+li{
+  list-style-type: none;
+  padding-left: 20px;
+}
+.lien{
+  color: rgb(173, 171, 171);
+  text-decoration: none;
+  padding: 14px 25px;
+  text-align: center;
+  display: inline-block;
+}
+a:hover{
+  color: slateblue;
 }
 
-.photo_accueil
-{
-    width: 1200px;
-    margin-bottom: 50px;
-}
+/* main */
 
+main{
+  display: flex;
+  justify-content: center;
+  text-align: justify;
+  padding-bottom: 100px;
+  font-weight: bold;
+}
+.photo_accueil{
+  width: 1200px;
+  padding-bottom: 50px;
+}
 h1{
-    font-family: 'Abril Fatface', cursive;
-    color: #D05270;
+  font-family: 'Abril Fatface', cursive;
+  color: #D05270;
+}
+article{
+  padding-top: 50px;
+}
+article p{
+  color: dimgray;
+}
+h2{
+  color: slateblue;
 }
 
-article
-{
-    margin-top: 50px;
-}
-
-article p
-{
-    color: dimgray;
-}
-
-h2
-{
-    color: slateblue;
-}
 /*profils*/
-.photo_profil
-{
-    height: 200px;
-    width: 200px;
-    border-radius: 50%;
-    margin-right: 50px;
-}
 
-.profil_individuel
-{
-    display: flex;
+figcaption{
+  text-align: center;
 }
-
+article .button:only-of-type{
+  padding-top: 75px;
+}
+.photo_profil{
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+.profil_individuel_un{
+  display: flex;
+  flex-direction: row-reverse;
+}
+.profil_individuel_deux{
+  display: flex;
+}
 
 /*le footer*/
-.illustration 
-{
+
+.illustration {
   width: 400px;
   height: 400px;
   padding-left: 175px;
 }
-footer
-{
+footer{
   display: flex;
 }
-
-.section_footer
-{
-display: flex;
-flex-direction: column;
-text-align: left;
-font-size: 15px;
-font-weight: lighter;
+.section_footer{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  font-size: 15px;
+  font-weight: lighter;
 }
-
-.section_footer h2
-{
+.section_footer h2{
   color: #D05270;
 }
-
-.section_footer div
-{
+.section_footer div{
   display: flex;
   justify-content: space-between;
   padding-top: 90px;
   gap: 20px;
 }
-
 .button{
   display: flex;
   justify-content: space-around;
   padding-top: 10px;
-
 }
 
-/* Début CSS des bouttons */
+/* Début CSS des boutons */
 
 .textetwitter{
-  background-color: #47a9e8;
+  background-color: #10A9F4;
   display: flex;
   align-items: center;
   text-decoration: none;
@@ -121,7 +136,7 @@ font-weight: lighter;
   padding-right: 30px;
 }
 .textelinkedin{
-  background-color: #1275B1;
+  background-color: #4876B4;
   display: flex;
   align-items: center;
   text-decoration: none;
@@ -138,9 +153,8 @@ font-weight: lighter;
   padding-right: 30px;
   padding-bottom: 10px;
 }
-
 .textemedium{
-  background-color: black;
+  background-color: #323132;
   display: flex;
   align-items: center;
   text-decoration: none;
@@ -157,30 +171,3 @@ font-weight: lighter;
   height: 30px;
   padding-right: 30px;
 }
-
-/*ici la nav bar*/
-nav{
-    display: flex;
-    justify-content: space-between;
-  }
-  
-ul{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-  li{
-    list-style-type: none;
-    padding-left: 20px;
-  }
-  .lien{
-    color: rgb(173, 171, 171);
-    text-decoration: none;
-    padding: 14px 25px;
-    text-align: center;
-    display: inline-block;
-  }
-  a:hover{
-    color: slateblue;
-  }
-
