@@ -15,6 +15,7 @@ h1{
 nav{
   display: flex;
   justify-content: space-between;
+  font-weight: bold;
 }
 ul{
   display: flex;
