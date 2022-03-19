@@ -6,8 +6,7 @@ body{
     max-width: 1200px;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
-    display: flex;
-    flex-direction: column;
+    font-size: larger;
 }
 nav{
     display: flex;

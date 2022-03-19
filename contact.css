@@ -8,6 +8,7 @@ body{
     font-weight: bold;
     display: flex;
     flex-direction: column;
+    font-size: larger;
 }
 nav{
     display: flex;

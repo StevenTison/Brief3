@@ -15,8 +15,7 @@ nav{
   display: flex;
   justify-content: space-between;
   font-weight: bold;
-}
-  
+} 
 ul{
   display: flex;
   align-items: center;
@@ -30,8 +29,6 @@ li{
   color: rgb(173, 171, 171);
   text-decoration: none;
   padding: 14px 25px;
-  text-align: center;
-  display: inline-block;
 }
 a:hover{
   color: slateblue;
