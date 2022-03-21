@@ -151,6 +151,25 @@ footer{
   padding-right: 30px;
   padding-bottom: 10px;
 }
+.textegit{
+  background-color: #323132;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.git{
+  width: 30px;
+  height: 30px;
+  padding-right: 30px;
+}
+
 .textemedium{
   background-color: #323132;
   display: flex;
