@@ -7,6 +7,7 @@ body{
   width: 100%;
   font-family: 'Montserrat', sans-serif;
   font-size: larger;
+  color: dimgray;
 }
 
 /* Nav bar */
@@ -41,7 +42,6 @@ main{
   justify-content: center;
   text-align: justify;
   padding-bottom: 100px;
-  font-weight: bold;
 }
 .photo_accueil{
   width: 1200px;
@@ -59,6 +59,11 @@ article p{
 }
 h2{
   color: slateblue;
+}
+
+figcaption
+{
+  font-weight: bold;
 }
 
 /*profils*/
