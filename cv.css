@@ -81,7 +81,10 @@ article .button:only-of-type{
 .profil_individuel_deux{
   display: flex;
 }
-
+.profil_individuel_trois{
+  display: flex;
+  flex-direction: row-reverse;
+}
 /*le footer*/
 
 .illustration {
