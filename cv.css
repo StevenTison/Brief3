@@ -61,15 +61,12 @@ h2{
   color: slateblue;
 }
 
-figcaption
-{
-  font-weight: bold;
-}
-
 /*profils*/
 
 figcaption{
   text-align: center;
+  padding-top: 5px;
+  font-weight: bold;
 }
 article .button:only-of-type{
   padding-top: 75px;
@@ -133,8 +130,8 @@ footer{
   font-weight: bold;
   font-size: 20px;
   padding: 10px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 .gmail{
   width: 30px;
