@@ -44,6 +44,9 @@ form{
 h2, h3{
     color: slateblue;
 }
+input[type="radio"]{
+    margin-right: 5px;
+}
 .avistextep{
     color: slateblue;
 }
