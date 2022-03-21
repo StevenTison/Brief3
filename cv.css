@@ -61,6 +61,11 @@ h2{
   color: slateblue;
 }
 
+figcaption
+{
+  font-weight: bold;
+}
+
 /*profils*/
 
 figcaption{
