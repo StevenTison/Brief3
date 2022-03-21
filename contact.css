@@ -5,14 +5,15 @@ html{
 body{
     max-width: 1200px;
     font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
     display: flex;
     flex-direction: column;
     font-size: larger;
+    color: dimgray;
 }
 nav{
     display: flex;
     justify-content: space-between;
+    font-weight: bold;
 }
 ul{
     display: flex;
@@ -38,6 +39,7 @@ h1{
 }
 form{
     text-align: center;
+    font-weight: bold;
 }
 h2, h3{
     color: slateblue;
