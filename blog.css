@@ -7,6 +7,7 @@ body{
   max-width: 1200px;
   font-family: 'Montserrat', sans-serif;
   font-size: larger;
+  color: dimgray;
 }
 h1{
   font-family: 'Abril Fatface', cursive;
@@ -38,7 +39,6 @@ a:hover{
 
 main
 {
-  font-weight: bold;
   text-align: justify;
   margin-bottom: 100px;
 }
@@ -54,10 +54,6 @@ h1, h2, h3
 h2, h3
 {
   color:slateblue;
-}
-main p
-{
-  color: dimgray;
 }
 footer
 {

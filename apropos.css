@@ -5,12 +5,13 @@ html{
 body{
     max-width: 1200px;
     font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
     font-size: larger;
+    color: dimgray;
 }
 nav{
     display: flex;
     justify-content: space-between;
+    font-weight: bold;
 }
 ul{
     display: flex;
@@ -73,6 +74,7 @@ p{
     display: flex;
     justify-content: space-between;
     padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 /* Début CSS des bouttons */
