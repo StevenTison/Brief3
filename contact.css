@@ -1,16 +1,14 @@
-html{
-    display: flex;
-    justify-content: center;
-}
 body{
-    max-width: 1200px;
     font-family: 'Montserrat', sans-serif;
     display: flex;
     flex-direction: column;
+    align-items: center;
     font-size: larger;
     color: dimgray;
 }
 nav{
+    max-width: 1200px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     font-weight: bold;
@@ -38,6 +36,7 @@ h1{
     color: #D05270;
 }
 form{
+    max-width: 1200px;
     text-align: center;
     font-weight: bold;
 }
@@ -54,6 +53,7 @@ input[type="radio"]{
     text-align: center;
 }
 footer{
+    max-width: 1200px;
     display: flex;
     flex-direction: row;
     padding-bottom: 20px;

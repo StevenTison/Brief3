@@ -1,16 +1,14 @@
-html{
-  display: flex;
-  justify-content: center;
-}
 body{
-  max-width: 1200px;
   font-family: 'Montserrat', sans-serif;
   display: flex;
   flex-direction: column;
   font-size: larger;
   color: dimgray;
+  align-items: center;
 }
 nav{
+  max-width: 1200px;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   font-weight: bold;
@@ -32,6 +30,7 @@ a:hover{
   color: slateblue;
 }
 header{
+  max-width: 1200px;
   display: flex;
   flex-direction: row;
   padding-bottom: 20px;
@@ -120,6 +119,7 @@ h2{
 /* Début CSS de la grille */
 
 section{
+  max-width: 1200px;
   display: grid;
   padding-top: 75px;
   padding-bottom: 75px;
