@@ -134,6 +134,10 @@ section{
 h3{
   color: #D05270;
 }
+span{
+  text-decoration: none;
+  border-bottom: #D05270 1px solid;
+}
 .lienblog{
   color: #D05270;
   text-decoration: none;
