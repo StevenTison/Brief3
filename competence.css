@@ -71,6 +71,7 @@ nav ul li a:hover{
   section {
       display: flex;
       flex-direction: column;
+      gap: 10px;
   }
   .img1{
       padding-left: 400px;
